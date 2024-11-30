@@ -6,6 +6,45 @@ body {
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+
+a:visited {
+  color: black;
+}
+
+
+a:hover {
+  color: black;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+}
+ul {
+  list-style-type: none;
+}
 
 img {
   width: 600px;
@@ -23,4 +62,52 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  margin: 32px;
+}
+.header .left-links{
+  display: flex;
+  gap: 8px;
+}
+
+.header .right-links{
+  display: flex;
+  gap: 8px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  margin: 32px;
+  background-color: #ddd;
+  height: 16px;
+}
+.footer .left-links{
+  display: flex;
+  gap: 8px;
+  
+}
+.footer .right-links{
+  display: flex;
+  gap: 8px;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.buttons{
+  padding: 16px;
+  font-weight: 700;
+  display: flex;
+  height: 32px;
+  width: 300px;
+  gap: 16px;
+  justify-content: center;
 }
